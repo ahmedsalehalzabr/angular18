@@ -1,0 +1,13 @@
+<mat-card appearance="outlined">
+    <mat-card-content>Simple card</mat-card-content>
+
+    <p>عند الضعط على هذا الزر سيتم اضافة واحد<button mat-raised-button (click)="addOne()">اضف واحد</button></p>
+
+    <p>التسلسل: {{y}}</p>
+
+    <p>عند الضعط على هذا الزر سيتم اظهار المحتوى<button mat-raised-button (click)="show(status)">اعرض</button></p>
+
+    @if (status) {
+       <p>اهلا بك في عالم البرمجة</p>
+    }
+  </mat-card>
