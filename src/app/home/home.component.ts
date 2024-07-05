@@ -18,7 +18,7 @@ export class HomeComponent {
 
   status = false;
   show(s : boolean) {
-    if(s = true) {
+    if(s == true) {
       this.status = false;
     } else {
       this.status = true;

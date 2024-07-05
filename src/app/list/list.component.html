@@ -1,0 +1,15 @@
+جدول التعليقات
+<table>
+    <tr>
+        <td>تسلسل</td>
+        <td>الاسم</td>
+        <td>الايميل</td>
+    </tr>
+    @for(com of data; track com) {
+        <tr>
+           <td>{{com.id}}</td>
+           <td>{{com.name}}</td>
+           <td>{{com.email}}</td>
+        </tr>
+    }
+</table>
